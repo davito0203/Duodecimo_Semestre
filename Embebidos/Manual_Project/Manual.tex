@@ -1,0 +1,72 @@
+\documentclass[12pt,graphicx,caption,rotating]{article}
+\textheight=23cm
+\textwidth=17cm
+\topmargin=-1cm
+\oddsidemargin=0cm
+\usepackage[activeacute,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}%manejo de graficos
+\usepackage{times}
+\usepackage{amssymb,amsfonts}
+\usepackage[tbtags]{amsmath}
+\usepackage{cite}
+\usepackage[all]{xy}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{multicol}
+\usepackage{cite}
+\usepackage{url}
+\usepackage[tbtags]{amsmath}
+\usepackage{amsmath,amssymb,amsfonts,amsbsy}
+\usepackage{bm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[all]{xy}
+\usepackage{authblk}
+\usepackage[centerlast, small]{caption}
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue, breaklinks=true]{hyperref}
+\hyphenation{ele-men-tos he-rra-mi-en-ta cons-tru-yen trans-fe-ren-ci-a pro-pu-es-tas si-mu-lar vi-sua-li-za-cion}
+
+\begin{document}
+\title{Manual para la instalación de herramientas}
+
+\author[1]{Martinez Hernandez. David Ricardo}
+\author[2]{Tobasura Madero. David Leonardo}
+\author[3]{Urbano Vallejo. Oscar Andres}
+\affil[1]{\href{}{drmartinezhe@unal.edu.co}}
+\affil[2]{\href{}{dltobasuram@unal.edu.co}}
+\affil[3]{\href{}{oaurbanov@unal.edu.co}}
+
+\date{}
+\maketitle
+
+\section{Instalación Herramientas}
+\noindent
+Para poder instalar las herramientas del sistema embebido es necesario descomprimir el archivo \textit{\textcolor{blue}{buildroot-2013.08.1.tar.bz2}} el cual contiene las herramientas necesarias para desarrollar adecuadamente el proyecto.\\
+Para descomprimir dicho archivo se debe ejecutar lo siguiente en la terminal:
+\begin{center}
+ \fcolorbox{Gray}{White}{\textcolor{red}{tar -xvjf buildroot.tar.bz2}} 
+\end{center}
+\noindent
+Si aparece algún error al ejecutar dicho comando es necesario hacerlo en modo \textbf{super usuario} o:
+\begin{center}
+ \fcolorbox{Gray}{White}{\textcolor{red}{sudo tar -xvjf buildroot.tar.bz2}}
+\end{center}
+\noindent
+Para instalar las herramientas que se encuentran en ese archivo se utiliza el siguiente comando:
+\begin{center}
+ \fcolorbox{Gray}{White}{\textcolor{red}{make}} o \fcolorbox{Gray}{White}{\textcolor{red}{sudo make}}
+\end{center}
+
+\bibliographystyle{ieeetran}
+\begin{thebibliography}{99}
+
+\bibitem{page1} Referenicas Librerias MIDI \url{http://www.faqs.org/docs/Linux-HOWTO/MIDI-HOWTO.html}
+
+\bibitem{page2} Referenicas Librerias MIDI \url{https://ccrma.stanford.edu/~craig/articles/linuxmidi/}
+
+\bibitem{page3} Referenicas Librerias MIDI \url{http://linux-sound.org/midi.html}
+
+\end{thebibliography}
+\end{document}
