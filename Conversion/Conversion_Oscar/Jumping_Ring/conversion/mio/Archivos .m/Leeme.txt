@@ -1,0 +1,36 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COMO FUNCIONA%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Para correr el programa hace falta ejecutar el archivo Thomson.m , este utiliza unos los otros.m extra para realizar las integraciones los siguientes
+son los parametros ajustables para realizar la simulacion:
+
+
+sigma=1/(2.83e-8);  % Conductividad del anillo, en Siemenz;
+b=1.8e-2;           % Radio interno del anillo, en metros;
+ea=33.75e-3;        % Espesor del anillo en metros;
+ha=1.e-3;           % Altura del anillo en metros;
+ma=714e-3;          % Masa del anillo en kilogramos masa.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%Parámetros Nucleo%%%%%%%%%%%%%%%%%%%%%%%
+
+
+hn=0.3;             % Altura del núcleo en metros;
+dn=2.56e-2;         % Diámetro interno del núcleo en metros;
+Ios=10;             % Corriente a través del solenoide en ampérios;
+Vos=30;             % Tension aplicado en la terminales de la bobina;
+f=60;               % Frecuencia de la red en hertz.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%Parametros Bobina%%%%%%%%%%%%%%%%%%%%%%%
+
+
+N=60*5;             % Número de espiras del solenoide en metros;
+L=0.1;              % Longitud del solenoide en metros;
+a=2.3e-2;           % Radio del solenoide en metros;
+mur=200;            % Permeabilidad relativa del núcleo a 60 Hz;
+muo=4*pi*1e-7;      % Permeabilidad del vacio en H/m.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIN%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
